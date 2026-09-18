@@ -1,0 +1,14 @@
+{
+  "name": "doh-compare",
+  "version": "1.0.0",
+  "description": "Ask Google and Cloudflare the same DNS question over DNS-over-HTTPS and tell whether the answers really differ.",
+  "main": "doh-compare.js",
+  "bin": { "doh-compare": "doh-compare.js" },
+  "private": true,
+  "scripts": { "test": "node tests/run.js" },
+  "keywords": ["dns", "doh", "dns-over-https", "propagation", "dns-checker", "cloudflare", "google-dns"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/examineip/doh-compare.git" },
+  "homepage": "https://tools.examineip.com/dns-checker/",
+  "engines": { "node": ">=18" }
+}
